@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floréa</title>
+    <link rel="stylesheet" href="UTS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div><i class="fa-solid fa-phone"></i> Hotline: +62 817 5675 9987</div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <img src="Images/fav-icon.png" alt="Floréa" width="60px" height="60px"/>
+        <div class="search-box">
+            <select>
+                <option>All</option>
+            </select>
+            <input type="text" placeholder="Search Product">
+            <button>Search</button>
+        </div>
+
+    <div class="icons">
+        <i class="fa-regular fa-user" id="openSignup"></i>
+        <i class="fa-regular fa-heart"><span>0</span></i>
+        <i class="fa-solid fa-bag-shopping"><span>0</span></i>
+    </div>
+    </header>
+
+    <div class="modal" id="signupModal">
+        <div class="modal-content">
+            <span class="close" id="closeSignup">&times;</span>
+            <h2>Create Account</h2>
+
+        <form action="#" method="POST" class="signup-from">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="password" placeholder="Create Account" required>
+            <button type="submit" class="btn-signup">Sign Up</button>
+        </form>
+        <p class="login-text">Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="About_Us.html">About Us</a>
+        <a href="Product.html">Product</a>
+        <a href="Blog.html">Blog</a>
+        <a href="Contact_Us.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+         <aside class="sidebar">
+            <h3>Category</h3>
+            <ul>
+                <li><a href="#">Fresh Flower</a></li>
+                <li><a href="#">Wedding Bouquet</a></li>
+                <li><a href="#">Tabel Flower</a></li>
+                <li><a href="#">Hand Bouquet</a></li>
+                <li><a href="#">Standing Flower</a></li>
+                <li><a href="#">Money Bouquet</a></li>
+            </ul>
+         </aside>
+
+         <!-- Main Content -->
+          <main class="main">
+
+            <div class="banner">
+                <img src="Images/Banner1.jpg" alt="Floréa Benner">
+                <img src="Images/Banner2.jpg" alt="Floréa Benner">
+                <img src="Images/Banner3.jpg" alt="Floréa Benner">
+            </div>
+
+            <h2 class="section-title">Welcome to Floréa</h2>
+            <p class="intro-text">
+                Within every petal, there is a message unspoken.
+                At Floréa, we turn flowers into the language of emotion soft, elegant, and full of meaning.Let your moments bloom beautifully.
+            </p>
+          </main>
+    </div>
+
+    <footer class="footer">
+    <P>© 2025 Floréa | Designed by Nur Intan Saputri | 5A </P>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+   <script src="UTS.js"></script> 
+</body>
+</html>
